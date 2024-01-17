@@ -7,6 +7,6 @@ c-ares编译说明
     3. make install
 
     二、 交叉编译环境
-    1. ./config --prefix=$PWD/out_arm_huiwei --host=arm-huiwei-linux-gnueabihf
+    1. ./configure --prefix=$PWD/out_arm_huiwei --host=arm-huiwei-linux-gnueabihf
     2. make  
     3. make install 
